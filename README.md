@@ -51,7 +51,9 @@ GET /api/products → Fetch all products
 
 Orders
 POST /api/orders → Place new order
+
 GET /api/orders → Fetch all orders (Admin)
+
 DELETE /api/orders/:id → Delete order (Admin)
 
 🧪 Application Flow
@@ -73,15 +75,20 @@ DELETE /api/orders/:id → Delete order (Admin)
 
 cd backend
 npm install
+
 node server.js
+
 Backend runs at:
 http://localhost:5000
 
 2️⃣ Start Frontend
 
 cd frontend
+
 npm install
+
 npm run dev
+
 Frontend runs at:
 http://localhost:5173
 
